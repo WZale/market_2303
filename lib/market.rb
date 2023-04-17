@@ -11,4 +11,7 @@ class Market
     @vendors << vendor
   end
 
+  def vendor_names
+    @vendors.map { |names| names.name }
+  end
 end
