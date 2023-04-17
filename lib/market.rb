@@ -14,4 +14,8 @@ class Market
   def vendor_names
     @vendors.map { |names| names.name }
   end
+
+  def vendors_that_sell(item)
+    require 'pry'; binding.pry
+  end
 end
